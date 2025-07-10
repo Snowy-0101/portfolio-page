@@ -1,103 +1,126 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="view" content="width, initial scales=1.0">
-        <title>My Profile</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yae's Portfolio</title>
 
-    <body>
-        <header>
-            <div class="container">
-                <div class="area-logo-header">
-                    <img src="" alt="logo">
-                </div>
+    <!-- CSS -->
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="area-logo-header">
+                <img src="img/logo/logo.svg" alt="logo">
+            </div> <!--area-logo-header-->
             <nav class="nav-header">
                 <ul class="list-nav-header">
+                    <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
-                    <li><a href="">Favorites</a></li>
-                    <li><a href="">Quotes</a></li>
-                    <li><a href="">Video</a></li>
-                    <li><a href="">Place</a></li>
+                    <li><a href="">Skill</a></li>
+                    <li><a href="">Works</a></li>
+                    <li><a class="btn-mail" href="">Contact Me</a></li>
                 </ul>
             </nav>
-            </div>
-        </header>
-        <main>
-            <div class="area-top-view">
-                <img src="">
-                    <p class="school-name">東京デザインテクノロジーセンター専門学校</p>
-                    <p class="major-name">スーパーIT科・スーパーデジタルメディア専攻 <span>3学年</span></p>
-                <h1 class="profile-name">田口 やえ</h1>            
-            </div>
-           
-            <!--about-->
-            <section class="area-home-about">
-                <div class="favorites-container">
-                    <div class="head-home">
-                        <h2 class="ttl">About</h2>
-                    </div>
-                    <div class="body-home">
-                       <ul class="list-info">
-                        <li>
-                            <p class="description">生年月日：<span>1999年1月28日</span></p>
-                        </li>
-                        <li>
-                            <p class="description">国籍：<span>日本</span></p>
-                        </li>
-                        <li>
-                            <p class="description">出身地：<span>神奈川県逗子市</span></p>
-                        </li>
-                       </ul>
-                    </div>
-                </div>
-            </section>
-            <!--Favorites-->
-            <section class="area-home-favorites">
-                <div class="favorites-container">
-                    <div class="head-home">
-                        <h2 class="ttl">Favorites</h2>
-                    </div>
-                    <div class="card">
-                        <
-                    </div>
-                </div>
-            </section>
-            <!--Quote-->
-            <section class="area-home-quote">
-                <div class="quote-container">
-                    <div class="head-home">
-                        <h2 class="ttl">Quotes</h2>
-                    </div>
-                    <div class="body-home">
-                        コンテンツ
-                    </div>
-                </div>
-            </section>
-            <!--Video-->
-            <section class="area-home-video">
-                <div class="video-container">
-                    <div class="head-home">
-                        <h2 class="ttl">Video</h2>
-                    </div>
-                    <div class="body-home">
-                        コンテンツ
-                    </div>
-                </div>
-            </section>
-             <!--Place-->
-             <section class="area-home-place">
-                <div class="place-container">
-                    <div class="head-home">
-                        <h2 class="ttl">Place</h2>
-                    </div>
-                    <div class="body-home">
-                        コンテンツ
-                    </div>
-                </div>
-            </section>
-        </main>
-    </body>
+        </div> <!--container-->
+    </header>
 
+    
+    <main>
+        <div class="area-top-view"></div>
+        <h1 class="ttl">PORTFOLIO</h1>
+        <p class="sub-ttl">Web Design</p>
+
+        <!-- About -->
+        <section class="area-home-about">
+            <div class="container">
+                <div class="head-home">
+                    <h2 class="ttl">About</h2>
+                </div> <!--head-home-->
+                <div class="body-home">
+                    <!-- コンテンツ -->
+                     <div class="img">
+                        <img src="img/display/profile-pic.png" alt="profile-pic">
+                     </div> <!--img-->
+                     <div class="text-home">
+                        <p class="sub-ttl">YAE TAGUCHI</p>
+                        <h3 class="ttl">田口 やえ</h3>
+                        <p class="description">はじめまして。〇〇と申します。現在は〇〇を中心に活動しており、人とのつながりを大切にしながら日々学びを深めています。よろしくお願いいたします。</p>
+                     </div> <!--text-home-->
+                     <ul class="sns-list">
+                            <li><a href=""><img src="img/icons/inst-icon.png" alt="inst-icon"></a></li>
+                            <li><a href=""><img src="img/icons/fb-icon.png" alt="fb-icon"></a></li>
+                            <li><a href=""><img src="img/icons/x-icon.png" alt="x-icon"></a></li>
+                        </ul>
+                </div> <!--body-home-->
+            </div> <!--container-->
+        </section>
+
+         <!-- Skills -->
+        <section class="area-home-skill">
+            <div class="container">
+                <div class="head-home">
+                    <h2 class="ttl">Skills</h2>
+                </div> <!--head-home-->
+                <div class="body-home">
+                    <!-- コンテンツ -->
+                     <ul class="list-skill">
+                        <li>
+                            <img src="img/icons/wd-icon.svg" alt="wd-icon">
+                            <p class="ttl">Webデザイン</p>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incclassclassunt ut labore et dolore magna aliqua.
+                            </p>
+                        </li>
+                        <li>
+                            <img src="img/icons/pg-icon.svg" alt="pg-icon">
+                            <p class="ttl">Programming</p>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incclassclassunt ut labore et dolore magna aliqua.
+                            </p>
+                        </li>
+                        <li>
+                            <img src="img/icons/gd-icon.svg" alt="gd-icon">
+                            <p class="ttl">Graphhic Design</p>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incclassclassunt ut labore et dolore magna aliqua.
+                            </p>
+                        </li>
+                     </ul>
+                </div> <!--body-home-->
+            </div> <!--container-->
+        </section>
+
+         <!-- Works -->
+        <section class="area-home-works">
+            <div class="container">
+                <div class="head-home">
+                    <h2 class="ttl">Works</h2>
+                </div> <!--head-home-->
+                <div class="body-home">
+                    <!-- コンテンツ -->
+                     <div class="slide" id="js-slide">
+                        <ul class="slide-list" id="works-slide-list-js">
+                            <li class="slide-img-01" id="slide-img-01-js">
+                                <a href=""><img src="img/works/img01.png" alt="img01"></a>
+                            </li>
+                        </ul>
+                     </div> <!--slide-->
+                </div> <!--body-home-->
+            </div> <!--container-->
+        </section>
+
+         <!-- Contact -->
+        <section class="area-home-contact me">
+            <div class="container">
+                <div class="head-home">
+                    <h2 class="ttl">Contact Me</h2>
+                </div> <!--head-home-->
+                <div class="body-home">
+                    <!-- コンテンツ -->
+                </div> <!--body-home-->
+            </div> <!--container-->
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
